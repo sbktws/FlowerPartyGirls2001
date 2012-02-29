@@ -1,4 +1,4 @@
-package sbktws.fpg2001;
+package sbktws.fpg2001.templates.human.buildings;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.util.Collection;
@@ -6,6 +6,10 @@ import java.util.Collection;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
+import sbktws.fpg2001.interfaces.ProductionBuilding;
+import sbktws.fpg2001.interfaces.Unit;
+import sbktws.fpg2001.util.Vector2;
 
 public class HumanHQ extends ProductionBuilding {
 

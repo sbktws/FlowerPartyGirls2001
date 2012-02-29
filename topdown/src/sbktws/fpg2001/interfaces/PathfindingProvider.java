@@ -1,5 +1,8 @@
-package sbktws.fpg2001;
+package sbktws.fpg2001.interfaces;
 import java.util.Collection;
+
+import sbktws.fpg2001.Map;
+import sbktws.fpg2001.util.Vector2;
 
 public interface PathfindingProvider {
 
