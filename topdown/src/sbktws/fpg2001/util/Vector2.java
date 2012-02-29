@@ -1,4 +1,4 @@
-package sbktws.fpg2001;
+package sbktws.fpg2001.util;
 public class Vector2 {
 	public static Vector2 ONE = new Vector2(1, 1);
 	public static Vector2 ZERO = new Vector2(0, 0);

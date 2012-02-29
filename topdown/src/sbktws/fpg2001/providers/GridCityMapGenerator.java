@@ -1,4 +1,9 @@
-package sbktws.fpg2001;
+package sbktws.fpg2001.providers;
+
+import sbktws.fpg2001.Map;
+import sbktws.fpg2001.MapTile;
+import sbktws.fpg2001.interfaces.MapGenerator;
+
 public class GridCityMapGenerator implements MapGenerator {
 
 	@Override
@@ -11,7 +16,7 @@ public class GridCityMapGenerator implements MapGenerator {
 
 		for (int x = 0; x < 16; x++) {
 			for (int y = 0; y < 16; y++) {
-				if (x % 4 == 0 || y % 4 == 0) {
+				if (x % 3 == 0 || y % 3 == 0) {
 					m.map[x][y].type = MapTile.Road;
 					// m.map[x][y].survivors = 0;
 				} else {
