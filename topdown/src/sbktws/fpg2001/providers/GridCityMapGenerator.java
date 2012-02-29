@@ -1,7 +1,7 @@
 package sbktws.fpg2001.providers;
 
 import sbktws.fpg2001.Map;
-import sbktws.fpg2001.MapTile;
+import sbktws.fpg2001.enums.MapTile;
 import sbktws.fpg2001.interfaces.MapGenerator;
 
 public class GridCityMapGenerator implements MapGenerator {

@@ -1,6 +1,6 @@
 package sbktws.fpg2001.interfaces;
 
-import sbktws.fpg2001.BuildingInteractReaction;
+import sbktws.fpg2001.enums.BuildingInteractReaction;
 import sbktws.fpg2001.util.Vector2;
 
 public interface Unit extends GameObject {
