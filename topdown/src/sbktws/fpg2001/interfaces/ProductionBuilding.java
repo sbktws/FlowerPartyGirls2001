@@ -1,10 +1,12 @@
-package sbktws.fpg2001;
+package sbktws.fpg2001.interfaces;
 import java.awt.GridLayout;
 import java.util.Collection;
 
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
+import sbktws.fpg2001.util.Vector2;
 
 public abstract class ProductionBuilding implements Building {
 

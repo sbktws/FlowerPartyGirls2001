@@ -1,4 +1,4 @@
-package sbktws.fpg2001;
+package sbktws.fpg2001.interfaces;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 

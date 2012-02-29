@@ -1,4 +1,5 @@
 package sbktws.fpg2001;
+
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
@@ -9,6 +10,8 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+
+import sbktws.fpg2001.providers.GridCityMapGenerator;
 
 public class Main {
 	public static void main(String[] args) {
@@ -31,7 +34,8 @@ public class Main {
 		c.gridy = 0;
 		c.fill = GridBagConstraints.BOTH;
 		content.add(mapPanel, c);
-		mapPanel.add(new JButton("test"));
+		Map m = new Map(mapPanel);
+		new GridCityMapGenerator().generateTiles(m);
 		c = new GridBagConstraints();
 
 		JPanel displayPanel = new JPanel();
