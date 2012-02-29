@@ -1,4 +1,4 @@
-package sbktws.fpg2001;
+package sbktws.fpg2001.core;
 
 import javax.swing.JPanel;
 

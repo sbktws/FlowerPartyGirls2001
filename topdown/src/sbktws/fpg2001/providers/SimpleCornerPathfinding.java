@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import sbktws.fpg2001.Map;
+import sbktws.fpg2001.core.Map;
 import sbktws.fpg2001.enums.MapTile;
 import sbktws.fpg2001.interfaces.PathfindingProvider;
 import sbktws.fpg2001.util.Vector2;

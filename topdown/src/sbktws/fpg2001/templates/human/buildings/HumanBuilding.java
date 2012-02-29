@@ -11,7 +11,7 @@ import sbktws.fpg2001.interfaces.ProductionBuilding;
 import sbktws.fpg2001.interfaces.Unit;
 import sbktws.fpg2001.util.Vector2;
 
-public class HumanHQ extends ProductionBuilding {
+public class HumanBuilding extends ProductionBuilding {
 
 	private String name;
 	private ImageIcon img;
